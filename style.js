@@ -14,6 +14,33 @@ var h6El = $('#14').text();
 var h7El = $('#15').text();
 var h8El = $('#16').text();
 var h9El = $('#17').text();
+
+$('#t1').text(localStorage.getItem('9am'));
+$('#t2').text(localStorage.getItem('10am'));
+$('#t3').text(localStorage.getItem('11am'));
+$('#t4').text(localStorage.getItem('12pm'));
+$('#t5').text(localStorage.getItem('1pm'));
+$('#t6').text(localStorage.getItem('2pm'));
+$('#t7').text(localStorage.getItem('3pm'));
+$('#t8').text(localStorage.getItem('4pm'));
+$('#t9').text(localStorage.getItem('5pm'));
+//saving thr data and keeping it there
+
+window.onbeforeunload = function remember(){
+    localStorage.setItem('9am', $('#t1').val());
+    localStorage.setItem('10am', $('#t2').val());
+    localStorage.setItem('11am', $('#t3').val());
+    localStorage.setItem('12pm', $('#t4').val());
+    localStorage.setItem('1pm', $('#t5').val());
+    localStorage.setItem('2pm', $('#t6').val());
+    localStorage.setItem('3pm', $('#t7').val());
+    localStorage.setItem('4pm', $('#t8').val());
+    localStorage.setItem('5pm', $('#t9').val());
+}   
+
+// $('#btn1').click(function remember(){}
+
+
 //past present and future- color coding
 function timeColor() {
     if(h1El <= time) {
@@ -94,12 +121,8 @@ function timeColor() {
 }
 timeColor()
 
-//saving thr data and keeping it there
-$('#t1').val(localStorage.getItem(JSON.stringify(h1El)));
 
-$('#btn1').click(function(){
-    localStorage.setItem(h1El, $('#t1').val());
-})
+
 
 
 
