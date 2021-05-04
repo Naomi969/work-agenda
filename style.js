@@ -50,95 +50,88 @@ window.onbeforeunload = function remember(){
 
 
 // //past present and future- color coding
-// function timeColor() {
-//     if(h1El <= time) {
-//         console.log('is this working');
-//         $('#t1').addClass("past");
-//     }else if(h1El == time) {
-//         console.log('is this one here');
-//         $('#t1').addClass('present');
-//     }else if(h1El > time) {
-//         console.log('what about this one');
-//         $('#t1').addClass('future');
-//     };
+function timeColor() {
+    if(h1El <= time) {
+        console.log('is this working');
+        $('#t1').addClass("past");
+    }else if(h1El == time) {
+        console.log('is this one here');
+        $('#t1').addClass('present');
+    }else if(h1El > time) {
+        console.log('what about this one');
+        $('#t1').addClass('future');
+    };
 
-//     if(h2El <= time) {
-//         $('#t2').addClass("past");
-//         $('#t2').removeClass('future');
-//     }else if(h2El == time) {
-//         $('#t2').addClass('present');
-//         $('#t2').removeClass('future');
-//     }else if(h2El >= time) {
-//         $('#t2').addClass('future');
+    if(h2El <= time) {
+        $('#t2').addClass("past");
+        $('#t2').removeClass('future');
+    }else if(h2El == time) {
+        $('#t2').addClass('present');
+        $('#t2').removeClass('future');
+    }else if(h2El >= time) {
+        $('#t2').addClass('future');
         
-//     };
+    };
 
-//     if(h3El <= time) {
+    if(h3El <= time) {
         
-//         $('#t3').addClass("past");
-//     }else if(h3El == time) {
-//         $('#t3').addClass('present')
-//     }else if(h3El > time) {
-//         $('#t3').addClass('future')
+        $('#t3').addClass("past");
+    }else if(h3El == time) {
+        $('#t3').addClass('present')
+    }else if(h3El > time) {
+        $('#t3').addClass('future')
         
-//     };
+    };
 
-//     if(h4El <= time) {
-//         $('#t4').addClass("past");
-//     }else if(h4El == time) {
-//         $('#t4').addClass('present');
-//     }else if(h4El > time) {
-//         $('#t4').addClass('future');
-//     };
+    if(h4El <= time) {
+        $('#t4').addClass("past");
+    }else if(h4El == time) {
+        $('#t4').addClass('present');
+    }else if(h4El > time) {
+        $('#t4').addClass('future');
+    };
 
-//     if(h5El <= time) {
-//         $('#t5').addClass("past");
-//     }else if(h5El == time) {
-//         $('#t5').removeClass("past");
-//         $('#t5').addClass('present');
-//     }else if(h5El > time) {
-//         $('#t5').removeClass("past");
-//         $('#t5').addClass('future');
-//     };
+    if(h5El <= time) {
+        $('#t5').addClass("past");
+    }else if(h5El == time) {
+        $('#t5').removeClass("past");
+        $('#t5').addClass('present');
+    }else if(h5El > time) {
+        $('#t5').removeClass("past");
+        $('#t5').addClass('future');
+    };
 
-//     if(h6El <= time) {
-//         $('#t6').addClass("past");
-//     }else if(h6El == time) {
-//         $('#t6').addClass('present')
-//     }else if(h6El > time) {
-//         $('#t6').addClass('future')
-//     };
+    if(h6El <= time) {
+        $('#t6').addClass("past");
+    }else if(h6El == time) {
+        $('#t6').addClass('present')
+    }else if(h6El > time) {
+        $('#t6').addClass('future')
+    };
 
-//     if(h7El <= time) {
-//         $('#t7').addClass("past");
-//     }else if(h7El == time) {
-//         $('#t7').addClass('present')
-//     }else if(h7El > time) {
-//         $('#t7').addClass('future')
-//     };
+    if(h7El <= time) {
+        $('#t7').addClass("past");
+    }else if(h7El == time) {
+        $('#t7').addClass('present')
+    }else if(h7El > time) {
+        $('#t7').addClass('future')
+    };
 
-//     if(h8El <= time) {
-//         $('#t8').addClass("past");
-//     }else if(h8El == time) {
-//         $('#t8').addClass('present')
-//     }else if(h8El > time) {
-//         $('#t8').addClass('future')
-//     };
+    if(h8El <= time) {
+        $('#t8').addClass("past");
+    }else if(h8El == time) {
+        $('#t8').addClass('present')
+    }else if(h8El > time) {
+        $('#t8').addClass('future')
+    };
 
-//     if(h9El <= time) {
-//         $('#t9').addClass("past");
-//     }else if(h9El == time) {
-//         $('#t9').addClass('present')
-//     }else if(h9El > time) {
-//         $('#t9').addClass('future')
-//     };
+    if(h9El <= time) {
+        $('#t9').addClass("past");
+    }else if(h9El == time) {
+        $('#t9').addClass('present')
+    }else if(h9El > time) {
+        $('#t9').addClass('future')
+    };
 
-// }
-// timeColor()
-
-
-
-
-
-
-
+}
+timeColor()
